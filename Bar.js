@@ -1,3 +1,4 @@
+
 function l_bar() {
     let x = Number(localStorage.getItem("Hours")) || 0;
     document.getElementById("test").innerHTML = "You have completed " + x + " hours";
